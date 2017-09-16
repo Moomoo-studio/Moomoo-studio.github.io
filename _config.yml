@@ -32,3 +32,22 @@ markdown: kramdown
 # highlighter: pygments
 # highlighter: rouge
 # highlighter: false
+#
+#
+
+
+#jekyll admin
+jekyll_admin:
+  hidden_links:
+    # - posts
+    # - pages
+    # - staticfiles
+    # - datafiles
+    # - configuration
+
+
+plugins_dir:
+  - jekyll-admin
+exclude:
+  - Gemfile
+  - Gemfile.lock
